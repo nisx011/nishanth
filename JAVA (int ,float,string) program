@@ -1,0 +1,16 @@
+import java.util.*;
+class main {
+    public static void main(String[]args) {
+        Scanner sc = new Scanner(System.in);
+        int intVal;
+        float floatVal;
+        String strVal;
+        System.out.println("Enter the String");
+        strVal = sc.nextLine();
+        System.out.println("Enter the Integer Value");
+        intVal =sc.nextInt();
+        System.out.println("Enter the Float Value");
+        floatVal = sc.nextFloat();
+        sc.close();
+    }
+}
